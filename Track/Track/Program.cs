@@ -140,7 +140,7 @@ namespace Track
         }
     }
     // HomeWork1
-    class Program
+    public class Program
     {
         /// <summary>
         /// Interfaces
@@ -246,19 +246,19 @@ namespace Track
             //Console.WriteLine(rectangle.Area());
             //Console.ReadLine();
             ////////////////////////////////////////////////////////////
-            //int n = 0;
-            //Console.WriteLine("n\n");
-            //int.TryParse(Console.ReadLine(), out n);
-            //int[,] mult = Multiplication(n);
-            //for (int i = 0; i < mult.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < mult.GetLength(1); j++)
-            //    {
-            //        Console.Write(mult[i, j] + " ");
-            //    }
-            //    Console.Write("\n");
-            //}
-            //Console.ReadLine();
+            int n = 0;
+            Console.WriteLine("n\n");
+            int.TryParse(Console.ReadLine(), out n);
+            int[,] mult = Multiplication(n);
+            for (int i = 0; i < mult.GetLength(0); i++)
+            {
+                for (int j = 0; j < mult.GetLength(1); j++)
+                {
+                    Console.Write(mult[i, j] + " ");
+                }
+                Console.Write("\n");
+            }
+            Console.ReadLine();
             ////////////////////////////////////////////////////////////
             //int[] param = { 1, 2, 9, 3, 4, 5 };
             //Console.WriteLine(Max(param));

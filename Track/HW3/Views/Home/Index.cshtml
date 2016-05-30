@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form class="form-group" method="post" action="Index">
+    <input class="form-group" type="text" name="n"/>
+    <input type="submit" class="form-group" value="Calc"/>
+</form>
+<div>
+    @if(ViewBag.Result!=null)
+    {
+        for (int i = 0; i < ViewBag.Result.GetLength(0); i++)
+        {
+            for (int j = 0; j < ViewBag.Result.GetLength(1); j++)
+            {
+                <label>@ViewBag.Result[i, j] </label>
+            }
+            <div></div>
+        }
+    }
+</div>
