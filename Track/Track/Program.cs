@@ -264,10 +264,10 @@ namespace Track
             //Console.WriteLine(Max(param));
             //Console.ReadLine();
 
-            //Console.WriteLine(PassCheck("Mima", new PasswordChecker()));
-            //Console.WriteLine("\n");
-            //Console.WriteLine(PassCheck("Mima", new PasswordChecker2()));
-            //Console.ReadLine();
+            Console.WriteLine(PassCheck("Mima", new PasswordChecker()));
+            Console.WriteLine("\n");
+            Console.WriteLine(PassCheck("Mima", new PasswordChecker2()));
+            Console.ReadLine();
         }
     }
 }
